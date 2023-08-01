@@ -1,0 +1,37 @@
+body,html{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url("./clc.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+*{
+    box-sizing: border-box;
+}
+.clock{
+    width: 400px;
+    height: 400px;
+    border: 20px solid white;
+    border-radius: 50%;
+   
+}
+.face-clock{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    
+}
+.hand{
+    position: absolute;
+    width: 50%;
+    height: 6px;
+    background-color: black;
+    transform-origin: 100%;
+    top: 50%;
+}
